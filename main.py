@@ -157,3 +157,13 @@ def track_order(parameters: dict, session_id: str):
 #     public_url = ngrok.connect(8020)
 #     print(" * ngrok tunnel URL:", public_url)
 #     uvicorn.run(app, port=8020)
+#  if start is not done by ngrok .exe then
+# first run python main.py
+# then copy hhtps address to the dailogflow fullfilment operate it
+
+# if using ngrok.exe run it at no busy port with uvicorn main:app --port 8030 --reload
+# then start cmd with ngrok http 8030
+# copu url to paste to dailogflow then operate
+
+# for database import server -> data import -> import thorough self-> start-> import
+# in db.helper use your mysql password
